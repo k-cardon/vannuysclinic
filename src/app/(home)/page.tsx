@@ -14,7 +14,7 @@ export default function Page() {
     </h1>
     <div className="m-8 p-8">
       <Image
-        src='/no-background.jpg'
+        src='/no-background.png'
         width={7240}
         height={4318}
         alt='Diverse group of women smiling together'
