@@ -17,6 +17,7 @@ export default function Page() {
         src='/no-background.png'
         width={7240}
         height={4318}
+        className={`my-8`}
         alt='Diverse group of women smiling together'
       />
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas odio nisi, feugiat sit amet tortor vitae, lacinia luctus nibh. Nulla facilisi. Donec volutpat dolor non egestas iaculis. Nullam ligula ipsum, bibendum a orci sit amet, vehicula consectetur nibh. Nam ornare nisl tempor porta suscipit. Nam ultrices nulla eget mauris gravida, quis lobortis erat lobortis. Morbi sapien sem, luctus a eros non, interdum tempor nibh.     </p>
