@@ -21,23 +21,25 @@ const links = [
 export default function NavLinks() {
   const pathname = usePathname();
   return (
-    <>
-      {links.map((link) => {
-        return (
-          <Link
-            key={link.name}
-            href={link.href}
-            className={clsx(
-              'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-neutral-100 p-3 text-sm font-medium hover:bg-blush-200 hover:text-neutral-100 md:flex-none md:justify-start md:p-2 md:px-3',
-              {
-                'bg-blush-50 text-blush-200': pathname === link.href,
-              },
-            )}
-          >
-            <p className="hidden md:block">{link.name}</p>
-          </Link>
-        );
-      })}
-    </>
+    <div className='flex space-x-4 md:space-x-6'>
+        {links.map((link) => {
+          return (
+            <Link
+              key={link.name}
+              href={link.href}
+              className={clsx(
+                'flex h-[48px] grow items-center justify-center gap-2 rounded-md bg-neutral-100 p-3 text-sm font-medium hover:bg-blush-200 hover:text-neutral-100 md:flex-none md:justify-start md:p-2 md:px-3',
+                {
+                  'bg-blush-50 text-blush-200': pathname === link.href,
+                },
+              )}
+            >
+              <p>{link.name}</p> 
+            </Link>
+          );
+        })}
+    </div>
   );
 }
+
+// className="hidden md:block" from link.name
