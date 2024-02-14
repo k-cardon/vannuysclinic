@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { arsenal } from '@/app/fonts';
 import "./globals.css";
+import NavBar from '@/app/ui/navigation/navbar';
 
 
 export const metadata: Metadata = {
@@ -15,6 +16,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+        <div className="w-full flex-none">
+          <NavBar />
+        </div>
       <body className={`${arsenal.className} antialiased`}>{children}</body>
     </html>
   );
