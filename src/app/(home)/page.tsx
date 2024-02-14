@@ -1,4 +1,6 @@
 import { Metadata } from 'next';
+import Link from 'next/link';
+import Image from 'next/image';
 
 export const metadata: Metadata = {
   title: 'Van Nuys Abortion Clinic',
@@ -7,10 +9,16 @@ export const metadata: Metadata = {
 export default function Page() {
   return (
   <main>
-    <h1 className={`m-8 p-8 text-xl md:text-2xl`}>
+    <h1 className={`m-8 px-8 text-xl md:text-2xl`}>
       Van Nuys Abortion Clinic
     </h1>
     <div className="m-8 p-8">
+      <Image
+        src='/no-background.jpg'
+        width={7240}
+        height={4318}
+        alt='Diverse group of women smiling together'
+      />
       <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas odio nisi, feugiat sit amet tortor vitae, lacinia luctus nibh. Nulla facilisi. Donec volutpat dolor non egestas iaculis. Nullam ligula ipsum, bibendum a orci sit amet, vehicula consectetur nibh. Nam ornare nisl tempor porta suscipit. Nam ultrices nulla eget mauris gravida, quis lobortis erat lobortis. Morbi sapien sem, luctus a eros non, interdum tempor nibh.     </p>
       <br></br>
       <p>Ut molestie venenatis lectus, eleifend aliquam justo convallis sed. Vivamus eleifend laoreet facilisis. Fusce tincidunt augue in mattis rutrum. Duis auctor efficitur nisi, sit amet commodo tortor porttitor quis. Duis ultrices lacus eu elit consectetur convallis vitae a sapien. Ut posuere vehicula orci, nec auctor nunc fringilla eu. Donec hendrerit mattis orci sed placerat. Maecenas et enim vel erat porttitor faucibus ut at metus. Integer pulvinar nibh libero, at dapibus augue semper a. Nulla neque tortor, pretium eget erat in, suscipit feugiat arcu. Cras molestie velit in mauris mattis maximus. In hac habitasse platea dictumst. Nullam in ipsum convallis, tincidunt quam non, aliquet est.</p>
