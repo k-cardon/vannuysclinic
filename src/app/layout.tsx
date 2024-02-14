@@ -1,7 +1,6 @@
 import type { Metadata } from "next";
 import { arsenal } from '@/app/fonts';
 import "./globals.css";
-import navbar from '/components';
 
 
 export const metadata: Metadata = {
