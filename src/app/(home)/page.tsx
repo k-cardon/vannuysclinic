@@ -31,7 +31,7 @@ export default function Page() {
               Call <Link href='tel:8184235065' className='text-blush-300'
               >818-423-5065</Link> 
               <br></br>
-              or Text <Link href="sms:12136104519&body=I'm%20interested%20in%20setting%20up%20an%20appointment%20for%20" className='text-blush-300'
+              or Text <Link href="sms:12136104519" className='text-blush-300'
               >1 (213) 610-4519</Link>
               <br></br>
               <br></br>
