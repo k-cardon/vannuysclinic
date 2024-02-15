@@ -12,7 +12,7 @@ export default function Page() {
     {/* <h1 className={`m-8 px-8 text-xl md:text-2xl`}>
       Van Nuys Abortion Clinic
     </h1> */}
-    <div className="m-8 p-8">
+    <div className="m-8 p-8 'md:text-2xl sm:text-xl text-center">
       <Image
         src='/no-background.png'
         width={7240}
@@ -20,9 +20,37 @@ export default function Page() {
         className={`mb-8`}
         alt='Diverse group of women smiling together'
       />
-      <p>We are your local abortion clinic in Southern California. We offer reproductive healthcare and services, such as abortion, birth control, and STD testing. Ask us about our low-income services.</p>
+      <h2 className='md:text-3xl sm:text-lg'><Link href='https://hersmartchoice.com/abortion-clinic/van-nuys-women-health-center/' className='text-blush-300'
+      >Her Smart Choice</Link> is your local abortion clinic in Van Nuys. We offer reproductive healthcare and services such as abortion, birth control, and STD testing. Ask us about our <Link href='https://hersmartchoice.com/services/low-income-patients/' className='text-blush-300'
+      >low-income services</Link>.</h2>
       <br></br>
-      <p>Pellentesque consectetur mauris ex, non varius mauris ullamcorper eget. Nam in purus leo. Morbi vulputate augue ac velit imperdiet, ac interdum lorem laoreet. Donec erat augue, ornare sed interdum suscipit, laoreet a tortor. Fusce iaculis erat sed velit dapibus lobortis. Donec varius libero sit amet dolor malesuada faucibus. Integer dictum ante in turpis ornare interdum. Mauris accumsan orci diam. Quisque euismod est at ex condimentum, in interdum orci hendrerit. Etiam vestibulum, dui eget aliquet bibendum, felis quam egestas felis, eget feugiat quam urna id ex. Quisque commodo nunc quis orci dictum, a tempor mauris convallis. Ut commodo mi id velit sagittis, eu faucibus purus sagittis. Etiam consectetur eget massa consectetur ornare.</p>
+        <div className='mb-4 p-4'>
+          <Link href='https://hersmartchoice.as.me/schedule.php?calendarID=1568124'className='bg-blush-200 text-white rounded-md px-3 py-2 text-2xl font-medium'
+          >Appointments</Link>
+            <div className='md:columns-2 sm:columns-1 m-8 p-4'>
+              Call <Link href='tel:8184235065' className='text-blush-300'
+              >818-423-5065</Link> 
+              <br></br>
+              or Text <Link href="sms:12136104519&body=I'm%20interested%20in%20setting%20up%20an%20appointment%20for%20" className='text-blush-300'
+              >1 (213) 610-4519</Link>
+              <br></br>
+              <br></br>
+              <Link href='https://www.google.com/maps/place/7220+Woodman+Ave+Suite+106+-+E,+Van+Nuys,+CA+91405/@34.2019001,-118.4335529,17z/data=!3m1!4b1!4m6!3m5!1s0x80c296e6f7c556e7:0x4340bf19f21096c1!8m2!3d34.2018957!4d-118.430978!16s%2Fg%2F11n09cf_hw?entry=ttu'
+              className='text-blush-300'
+              >7220 Woodman Ave Suite #106</Link>
+              <br></br>
+              Van Nuys, CA 91405
+              <br></br>
+              <br></br>
+              Mon-Fri 8am - 8pm
+              <br></br>
+              Saturday 8am - 3pm
+              <br></br>
+              Closed Sunday 
+              <br></br>
+              Walk-ins Welcome
+            </div>
+        </div>
     </div>
   </main>
   );

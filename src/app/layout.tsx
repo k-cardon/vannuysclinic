@@ -16,7 +16,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-        <body className={`${arsenal.className} antialiased w-full flex-none`}>
+        <body className={`${arsenal.className} antialiased w-full flex-none `}>
           <NavBar />
           {children}
         </body>

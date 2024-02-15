@@ -1,7 +1,7 @@
 'use client'
 
-import { Disclosure, Menu, Transition } from '@headlessui/react'
-import { Bars3Icon, BellIcon, XMarkIcon } from '@heroicons/react/24/outline'
+import { Disclosure, } from '@headlessui/react'
+import { Bars3Icon, XMarkIcon } from '@heroicons/react/24/outline'
 import Link from 'next/link';
 
 const navigation = [
@@ -36,7 +36,7 @@ export default function Example() {
                 </Disclosure.Button>
               </div>
               <div className="flex flex-1 items-center justify-center sm:items-stretch sm:justify-start text-white">
-                <div className="flex flex-shrink-0 items-center">
+                <div className="flex flex-shrink-0 items-center text-xl">
                   <Link href='/'>Van Nuys Abortion Clinic</Link>
                   {/* <img
                     className="h-8 w-auto"
@@ -52,7 +52,7 @@ export default function Example() {
                         href={item.href}
                         className={classNames(
                           item.current ? 'bg-blush-200 text-white' : 'text-white hover:bg-blush-100 hover:text-white',
-                          'rounded-md px-3 py-2 text-sm font-medium'
+                          'rounded-md px-3 py-2 text-m font-medium'
                         )}
                         aria-current={item.current ? 'page' : undefined}
                       >
