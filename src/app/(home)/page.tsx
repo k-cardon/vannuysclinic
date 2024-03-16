@@ -80,7 +80,7 @@ export default function Page() {
 				>
 					<p className='flex'>
 						We understand unwanted pregnancy can put a lot of stress
-						on a person's physical and mental health. In such
+						on a {`person's`} physical and mental health. In such
 						situations, Termination of Pregnancy (TOP) or abortion
 						can be a blessing. The termination can be safely
 						performed until the end of the second trimester as per
